@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    
+}
+body{
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+img{
+    float: left;
+}
+.heading{
+    list-style: none;
+    background-color: rgb(66, 66, 94);
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Preahvihear', sans-serif;
+    text-shadow: 2px 1px rgb(16, 11, 69);
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+}
+.Container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.gameInfo{
+    padding: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 25px;
+    
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw; 
+    font-family: 'Rubik Mono One', sans-serif;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgba(229, 216, 242, 0.662);
+
+}
+.bt0{
+    border-top: 0;
+}
+.bb0{
+    border-bottom: 0;
+}
+.br0{
+    border-right: 0;
+}
+.bl0{
+    border-left: 0;
+}
+#reset{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(1, 32, 32);
+    color: aqua;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aqua;
+}
+.info{
+    margin: 30px;
+    padding: 2px;
+    background-color: rgba(157, 197, 197, 0.676);
+    border-radius: 18px;
+
+}
+#tic{
+    color: red;
+    text-shadow: 5px 5px 8px red;
+}
+#tac{
+    color: blue;
+    text-shadow: 5px 5px 8px blue;
+}
+#toe{
+    color: green;
+    text-shadow: 5px 5px 8px rgb(9, 78, 9);
+}
+.winy{
+    margin-left: 50px; 
+    margin-top: -50px; 
+    width: 0px;
+    transition: width 1s ease-in-out;
+    
+}
